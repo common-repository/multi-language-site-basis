@@ -1,0 +1,61 @@
+﻿/* -------------------RESET CSS  (from https://github.com/tazotodua/useful-javascript/ )---------------------
+ 	WHENEVER you want to integrate element into external site, at first, you'd better to reset the css for your new element, because external site may had defined bad styles for elements globally. p.s. change css_reset__MLSS with your element's classname
+*/ 
+@charset "UTF-8"; .css_reset__MLSS , .css_reset__MLSS div, .css_reset__MLSS span, .css_reset__MLSS applet, .css_reset__MLSS object, .css_reset__MLSS iframe, .css_reset__MLSS h1, .css_reset__MLSS h2, .css_reset__MLSS h3, .css_reset__MLSS h4, .css_reset__MLSS h5, .css_reset__MLSS h6, .css_reset__MLSS p, .css_reset__MLSS blockquote, .css_reset__MLSS pre, .css_reset__MLSS a, .css_reset__MLSS abbr, .css_reset__MLSS acronym, .css_reset__MLSS address, .css_reset__MLSS big, .css_reset__MLSS cite, .css_reset__MLSS code, .css_reset__MLSS del, .css_reset__MLSS dfn, .css_reset__MLSS em, .css_reset__MLSS img, .css_reset__MLSS ins, .css_reset__MLSS kbd, .css_reset__MLSS q, .css_reset__MLSS s, .css_reset__MLSS samp, .css_reset__MLSS small, .css_reset__MLSS strike, .css_reset__MLSS strong, .css_reset__MLSS sub, .css_reset__MLSS sup, .css_reset__MLSS tt, .css_reset__MLSS var, .css_reset__MLSS b, .css_reset__MLSS u, .css_reset__MLSS i, .css_reset__MLSS center, .css_reset__MLSS dl, .css_reset__MLSS dt, .css_reset__MLSS dd, .css_reset__MLSS ol, .css_reset__MLSS ul, .css_reset__MLSS li, .css_reset__MLSS fieldset, .css_reset__MLSS form, .css_reset__MLSS label, .css_reset__MLSS legend, .css_reset__MLSS table, .css_reset__MLSS caption, .css_reset__MLSS tbody, .css_reset__MLSS tfoot, .css_reset__MLSS thead, .css_reset__MLSS tr, .css_reset__MLSS th, .css_reset__MLSS td, .css_reset__MLSS article, .css_reset__MLSS aside, .css_reset__MLSS canvas, .css_reset__MLSS details, .css_reset__MLSS embed, .css_reset__MLSS figure, .css_reset__MLSS figcaption, .css_reset__MLSS footer, .css_reset__MLSS header, .css_reset__MLSS hgroup, .css_reset__MLSS menu, .css_reset__MLSS nav, .css_reset__MLSS output, .css_reset__MLSS ruby, .css_reset__MLSS section, .css_reset__MLSS summary, .css_reset__MLSS time, .css_reset__MLSS mark, .css_reset__MLSS audio, .css_reset__MLSS video {
+	margin: 0; 	padding: 0;	border: 0;	font-size: 100%; vertical-align: baseline;  line-height: 1.2; position:relative; float:none; clear:none; 
+} .css_reset__MLSS a{color:blue;}
+/*--------------------## RESET CSS ##---------------------------------------*/
+
+
+#LanguageSelector__MLSS {z-index: 9944; positionnn:SetByAdminnn; Left-Top-Right:SetByAdminnn; background-color:grey; padding:2px; border:2px solid; border-radius:5px; width:auto; box-sizing: content-box; font-size: 14px; }
+  #LanguageSelector__MLSS #LangDropMenu1__MLSS{}
+	#LanguageSelector__MLSS #AllLines1__MLSS		{}
+	#LanguageSelector__MLSS #AllLines1__MLSS:hover	{}
+	 #LanguageSelector__MLSS .LineHolder1__MLSS{}		
+	  #LanguageSelector__MLSS .LineHolder1__MLSS a.ImgHolder1__MLSS{}
+	   #LanguageSelector__MLSS img.FlagImg1__MLSS{height:25px; width:40px;  border:1px solid #000!important;}
+	   #LanguageSelector__MLSS span.Flag1_lname__MLSS{float: right;  clear: both; margin: 5px 0px 0px 2px; color: white; font-weight: bold;}
+		 #LanguageSelector__MLSS a#RevealButton__MLSS{display:none; }
+		 @media screen and (max-width: 800px) { 
+		  #LanguageSelector__MLSS a#RevealButton__MLSS{display:inline-block;  }
+		 }
+			  .ddropdown_LSTYPE__MLSS #LangDropMenu1__MLSS{	height:27px;}
+				.ddropdown_LSTYPE__MLSS  #AllLines1__MLSS		{overflow:hidden;	height:100%;}
+				.ddropdown_LSTYPE__MLSS #AllLines1__MLSS:hover	{overflow:visible;	height:auto;}
+				 .ddropdown_LSTYPE__MLSS .LineHolder1__MLSS{ clear: left; float:left; cursor:default; padding: 0 0 2px 0;}		
+				  .ddropdown_LSTYPE__MLSS .LineHolder1__MLSS a.ImgHolder1__MLSS{}
+				 .ddropdown_LSTYPE__MLSS a#RevealButton__MLSS{color:#EAF6F8; text-decoration: none; float: right; font-size: 22px; font-weight: bold; padding: 6px 0px; margin: -6px 1px; vertical-align: middle; text-shadow: 1px 1px 1px #61FE31;}	 
+				  .ddropdown_LSTYPE__MLSS a#RevealButton__MLSS:hover{color:#EAF6F8;}
+				  
+			  .hhorizontal_LSTYPE__MLSS #LangDropMenu1__MLSS{}
+				.hhorizontal_LSTYPE__MLSS  #AllLines1__MLSS		{height:100%;}
+				.vvertical_LSTYPE__MLSS #AllLines1__MLSS:hover	{}
+				 .hhorizontal_LSTYPE__MLSS .LineHolder1__MLSS{ clear: none; float:left; cursor:default;  margin: 0 1px; padding: 0px ;}		
+				  .hhorizontal_LSTYPE__MLSS .LineHolder1__MLSS a.ImgHolder1__MLSS{}
+				 .hhorizontal_LSTYPE__MLSS a#RevealButton__MLSS{display:none;}		 
+					 
+			  .vvertical_LSTYPE__MLSS #LangDropMenu1__MLSS{}
+				.vvertical_LSTYPE__MLSS  #AllLines1__MLSS		{}
+				.vvertical_LSTYPE__MLSS #AllLines1__MLSS:hover	{}
+				 .vvertical_LSTYPE__MLSS .LineHolder1__MLSS{ clear: left; float:left; cursor:default; padding: 1px 0px;}		
+				  .vvertical_LSTYPE__MLSS .LineHolder1__MLSS a.ImgHolder1__MLSS{}
+				 .vvertical_LSTYPE__MLSS a#RevealButton__MLSS{display:none;}	 
+		 
+		 
+		 
+
+
+#my_black_bck_24141 {z-index:9503;background:black; height:5000px; left:0px; opacity:0.9; position:fixed; top:0px; width:100%; }		 
+#FirstTimeLanguage1__MLSS {z-index: 9970; position: absolute; background-color: #B7B7B7; padding: 5px; border: 2px solid; border-radius: 5px; float: left; margin: 0 0 0 40%; top: 20%;}
+	#FirstTimeLanguage1__MLSS #popup_CHOOSER2__MLSS{ }
+	 #FirstTimeLanguage1__MLSS .LineHolder2__MLSS{background-color:grey;}
+	 #FirstTimeLanguage1__MLSS a.ImgHolder2__MLSS {display:block; margin: 10px 0; text-decoration:none; }
+		#FirstTimeLanguage1__MLSS img.FlagImg2__MLSS{height:50px; width:80px; vertical-align: middle; }
+		#FirstTimeLanguage1__MLSS span.lnmenuSpn2__MLSS{font-size:25px; margin: 0 0 0 6px; color: #FFDEA3; } 
+		 
+	body .flaglines_mlss{ text-align: center; margin:20px 0;}
+	body .flaglines_mlss a { text-decoration:none; border-bottom: 0px;  color: #5a5858; }
+	body .flaglines_mlss a img{ width:35px;  height:25px; display:inline!important; }
+	body .flaglines_mlss .LineHolder1__MLSS{display:inline-block;  margin:0 8px;  padding: 0px 3px;  box-shadow: 0px 0px 7px rgba(5, 1, 144, 0.97); }
+	body .clerboth2__MLSS{clear:both;}
+	
